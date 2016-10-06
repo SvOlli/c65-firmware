@@ -1,7 +1,7 @@
-AS=ca65
-LD=ld65
+AS ?= ca65
+LD ?= ld65
 
-ASFLAGS=-I . -I src
+ASFLAGS = -I . -I src
 
 ROM = obj/mega65.rom
 
@@ -42,5 +42,3 @@ dl:
 bin: dl
 	tools/split2bin.sh
 
-#%.o: %.s $(DEPS)
-#	$(AS) $(ASFLAGS) $< -o $@
