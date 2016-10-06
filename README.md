@@ -14,3 +14,5 @@ replacing the dates coded in the filenames of the binary chunks included by the
 files in the "src" directory. These files can be used later on reference real
 source code of reversed engineered and improved firmware.
 
+The built ROM can be found at obj/mega65.rom
+

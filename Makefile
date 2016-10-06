@@ -1,5 +1,5 @@
-AS ?= ca65
-LD ?= ld65
+AS := ca65
+LD := ld65
 
 ASFLAGS = -I . -I src
 
